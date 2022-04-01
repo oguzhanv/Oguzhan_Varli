@@ -49,8 +49,18 @@ $(document).ready(function () {
         getDots[n].classList.add("active")
     }
 
-    $(".card-container").click(function(){
+    $("#popup1").click(function(){
         $(".popup").show()
+        $(".popup-head").html("<h1>Orman Evleri İnşaatı</h1>");
+        $(".popup-body").html("<p>Ağva iki nehrin arasında konumlanmış bir delta olup, Yeşilçay ve Göksu nehri arasında şirin bir kasabadır.Ağva'yı güzel kılan faktörler arasında hem dere aktivitelerinin burada yapılabiliyor olması, hem de çok kısa bir yolculukla denize ulaşmanın mümkün olmasıdır.</p>");
+        $(".popup-image-main").html("<img src='http://theswanparkhotel.com/images/upload/galeri/otel/11.jpg' class='popup-image'>")
+    })
+
+    $("#popup2").click(function(){
+        $(".popup").show()
+        $(".popup-head").html("<h1>Orman Evleri İnşaatı</h1>");
+        $(".popup-body").html("<p>Ağva iki nehrin arasında konumlanmış bir delta olup, Yeşilçay ve Göksu nehri arasında şirin bir kasabadır.Ağva'yı güzel kılan faktörler arasında hem dere aktivitelerinin burada yapılabiliyor olması, hem de çok kısa bir yolculukla denize ulaşmanın mümkün olmasıdır.</p>");
+        $(".popup-image-main").html("<img src='http://theswanparkhotel.com/images/upload/galeri/otel/11.jpg' class='popup-image'>")
     })
 
     $(".popup-close").click(function(){
