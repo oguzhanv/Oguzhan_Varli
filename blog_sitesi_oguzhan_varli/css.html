@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Wissen Blog</title>
+</head>
+<body>
+    <nav>
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <h2 class="logo-animation">Oğuzhan Blog</h2>
+            </div>
+            <div class="navbar-content">
+                <div class="navbar-ul">
+                    <a href="/index.html">HOME</a>
+                    <a href="/index.html#html" >HTML</a>
+                    <a class="active" href="#css">CSS</a>
+                    <a href="/index.html#bootstrap">BOOTSTRAP</a>
+                    <a href="/index.html#javascript">JAVASCRIPT</a>
+                    <a href="/index.html#jquery">JQUERY</a>
+                    <a href="/index.html#aboutme">ABOUT ME</a>
+                    <a href="/index.html#contact">CONTACT</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="content-section" id="css-content">
+       
+        <div id="css" class="content">
+            <h3 class="content-title">CSS</h3>
+            <pre class="content-text">Merhaba,
+
+Bugün CSS'in önemli bir özelliği olan flex kavramından bahsedeceğiz.
+Bildiğiniz üzere HTML elementlerinin block ve inline olmak üzere iki çeşit türleri vardır.
+
+Yaygın Block Elementleri: Div, Header, P, Table, Ul, H1...H6, Section... gibi elementlerdir.
+
+Yaygın Inline Elementleri: A, Button, Input, I, Img, Label, Span... gibi elementlerdir.
+
+Block Elementler aşağıdaki resimdeki gibi sayfanın bütün genişliğini kendi yüksekliği kadar kullanmaktadır.
+
+<img src="/pictures/block-element.png">
+
+Block Elementler ardından gelen elementin türüne bakmaksızın gelen elementi kendi yüksekliğinin altına yerleştirir.
+
+<img src="/pictures/block-element2.png">
+
+Buradaki ikinci elementin alta geçmesinin sağlayan olay block elementinin display özelliğinin block olmasıdır.
+
+Inline etiketlerse block elementlerin aksine satırı kaplamak yerine, aynı satıra bir veya birden fazla inline
+element(ler) alabilirler.
+
+(Block elementler satırı tamamen kapladıkları için öcesindeki element inline olsa bile yanına yerleşmezler.)
+
+<img src="/pictures/inline-element1.png">
+
+CSS'in display flex özelliği ( display: flex; ) ise bulunduğu kapsayıcının(container) içindeki block elementlerin
+block özelliklerini kaybedip inline elementlere dönüşmesini sağlar.Böylelikle birden fazla block veya inline elementi
+aynı satırda sıralayabiliriz.
+
+
+Kapsayıcıya display flex özelliği verildikten sonra;
+<img src="/pictures/inline-element2.png">
+
+Böylelikle;
+Elementleri rahatlıkla konumlandırabiliriz.(Merkezde ortalamak, kolon olarak konumlandırmak gibi..)
+
+Elementleri aynı satırda hizzalamak için isteğe göre aşağıdaki komutlar kullanılabilir.
+
+
+
+Justify-content: center             ==> Elementleri aynı satır içerisinde merkezde hizalar.
+Justify-content: space-between      ==> Elementleri aynı satır içerisinde başa ve sona bir tane konumlandırarak kalanı eşit hizalar.
+Justify-content: space-evenly       ==> Elementleri aynı satır içerisnde aynı boşlukla hizalar.
+Flex-direction: column              ==> Elementleri aşağıdan yukarıya doğru aynı hizada sıralar.
+
+            </pre>
+        </div>
+        
+    </section>
+
+
+
+    
+</body>
+</html>

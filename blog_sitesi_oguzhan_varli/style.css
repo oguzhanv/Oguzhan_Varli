@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* width: 100vh; */
+    height: 100hv;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-color: rgb(44, 114, 114);
+    height: 80px;
+
+}
+
+.navbar-logo {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    top: 35px;
+    color: white;
+}
+
+.logo-animation{
+    position: relative;
+    color: white;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+
+@keyframes logo{
+    0% {top:0px; left:0px}
+    25% {top:0px; left:75px}
+    50% {top:0px; left:150px}
+    75% {top:0px; left:75px}
+    100% {top:0px; left:0px}
+
+}
+
+.navbar-ul {
+    width: 75%;
+    position: absolute;
+    top: 40px;
+    left: 40%;
+    display: flex;
+}
+
+.navbar-ul a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 0 2% 0 2%;
+}
+
+.navbar-ul a:hover{
+    color: lightblue;
+    transform: scale(1.2);
+}
+
+.active{
+    background-color: red;
+    padding: 15px 0 0 0;
+    margin-bottom: 15px;
+}
+section{
+    background-image:
+    linear-gradient(to bottom right, rgba(228, 228, 220, 0.5), rgba(12, 12, 12, 0.836)),
+    url('https://wallpaperaccess.com/full/7403967.jpg');
+}
+.main-section {
+    width: 100%;
+    height: 740px; 
+}
+
+.content{
+    height: 740px;
+    padding: 130px 200px 0 200px;
+    text-align: center;
+    
+}
+#css-content{
+    height: 2200px;
+}
+.content-section{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.content-title{
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.content-text{
+    text-align: start;
+    color: white;
+    font-size: 16px;
+    padding: 20px 30px 0 30px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
