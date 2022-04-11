@@ -7,7 +7,6 @@ body{
     height: 100vh;
     width: 100vw;
     background-color: #F6F5F2;
-    
 }
 nav{
     width: 100%;
@@ -23,6 +22,10 @@ img{
 .container{
     width: 85%;
     background-color: white;
+    border-left: 1px groove white !important;
+    border-right: 1px groove white;
+
+
 }
 .nav-link{
     border: 1px groove white !important;
@@ -40,10 +43,12 @@ img{
 
 .slide-container{
     width: 60% !important;
-    border: 1px groove white;
-    padding: 20px 20px 40px 20px;
+    border-left: 1px groove white;
+    border-bottom: 1px groove white;
+    padding: 20px 20px 20px 20px;
     width: 80% !important;
     height: 60%;
+    margin-bottom: 20px;
 }
 .slide-dot{
     height: 20px !important;
@@ -113,11 +118,11 @@ img{
     width: 40%;
     height: 40%;
     padding: 20px;
-    border: 1px groove rgba(255, 255, 255, 0.692);
+    border-right: 1px groove rgba(255, 255, 255, 0.692);
 
 }
 .follows, .important-news{
-    border: 1px groove white;
+    border-bottom: 1px groove white;
 }
 .important-news{
     padding: 20px;
@@ -138,12 +143,13 @@ h3{
     font-size: 20px;
     font-weight: bolder;
 }
-.aktuel, .diken-ozel, .agora{
+.aktuel, .diken-ozel{
     width: 33%;
-    border: 1px groove white;
+    border-right: 1px groove white;
     height: 3750px;
 
 }
+
 
 section{
     display: flex;
@@ -200,10 +206,13 @@ section{
 }
 .surdurulebilirlik{
     width: 66%;
-    border-left: 1px groove white;
     border-right: 1px groove white;
-    border-bottom: 1px groove white;
+    /* border-top: 1px groove white; */
     padding: 10px 15px 0 20px;
+}
+section{
+    border-bottom: 1px groove white;
+
 }
 
 .surdurulebilirlik-img{
@@ -227,6 +236,7 @@ footer{
     width: 100%;
     height: 10%;
     background-color: black;
+    padding: 0;;
 }
 .footer-main{
     padding: 30px;
