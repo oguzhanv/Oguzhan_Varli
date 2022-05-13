@@ -1,0 +1,34 @@
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Business\bin\Debug\net5.0\BusReservation.Business.deps.json
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Business\bin\Debug\net5.0\BusReservation.Business.dll
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Business\bin\Debug\net5.0\ref\BusReservation.Business.dll
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Business\bin\Debug\net5.0\BusReservation.Business.pdb
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Business\bin\Debug\net5.0\BusReservation.Entity.dll
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Business\bin\Debug\net5.0\BusReservation.Entity.pdb
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Business\obj\Debug\net5.0\BusReservation.Business.csproj.AssemblyReference.cache
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Business\obj\Debug\net5.0\BusReservation.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Business\obj\Debug\net5.0\BusReservation.Business.AssemblyInfoInputs.cache
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Business\obj\Debug\net5.0\BusReservation.Business.AssemblyInfo.cs
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Business\obj\Debug\net5.0\BusReservation.Business.csproj.CoreCompileInputs.cache
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Business\obj\Debug\net5.0\BusReservation.Business.csproj.CopyComplete
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Business\obj\Debug\net5.0\BusReservation.Business.dll
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Business\obj\Debug\net5.0\ref\BusReservation.Business.dll
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Business\obj\Debug\net5.0\BusReservation.Business.pdb
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Business\bin\Debug\net5.0\BusReservation.Data.dll
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Business\bin\Debug\net5.0\BusReservation.Data.pdb
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Business\bin\Debug\net5.0\BusReservation.Business.deps.json
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Business\bin\Debug\net5.0\BusReservation.Business.dll
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Business\bin\Debug\net5.0\ref\BusReservation.Business.dll
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Business\bin\Debug\net5.0\BusReservation.Business.pdb
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Business\bin\Debug\net5.0\BusReservation.Data.dll
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Business\bin\Debug\net5.0\BusReservation.Entity.dll
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Business\bin\Debug\net5.0\BusReservation.Data.pdb
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Business\bin\Debug\net5.0\BusReservation.Entity.pdb
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Business\obj\Debug\net5.0\BusReservation.Business.csproj.AssemblyReference.cache
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Business\obj\Debug\net5.0\BusReservation.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Business\obj\Debug\net5.0\BusReservation.Business.AssemblyInfoInputs.cache
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Business\obj\Debug\net5.0\BusReservation.Business.AssemblyInfo.cs
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Business\obj\Debug\net5.0\BusReservation.Business.csproj.CoreCompileInputs.cache
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Business\obj\Debug\net5.0\BusReservation.Business.csproj.CopyComplete
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Business\obj\Debug\net5.0\BusReservation.Business.dll
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Business\obj\Debug\net5.0\ref\BusReservation.Business.dll
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Business\obj\Debug\net5.0\BusReservation.Business.pdb

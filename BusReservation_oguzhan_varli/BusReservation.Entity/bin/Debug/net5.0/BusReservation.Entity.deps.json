@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BusReservation.Entity/1.0.0": {
+        "runtime": {
+          "BusReservation.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BusReservation.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

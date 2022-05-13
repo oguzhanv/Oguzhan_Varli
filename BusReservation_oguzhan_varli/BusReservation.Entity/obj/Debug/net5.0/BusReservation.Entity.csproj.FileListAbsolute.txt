@@ -1,0 +1,23 @@
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\bin\Debug\net5.0\BusReservation.Entity.deps.json
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\bin\Debug\net5.0\BusReservation.Entity.dll
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\bin\Debug\net5.0\ref\BusReservation.Entity.dll
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\bin\Debug\net5.0\BusReservation.Entity.pdb
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\obj\Debug\net5.0\BusReservation.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\obj\Debug\net5.0\BusReservation.Entity.AssemblyInfoInputs.cache
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\obj\Debug\net5.0\BusReservation.Entity.AssemblyInfo.cs
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\obj\Debug\net5.0\BusReservation.Entity.csproj.CoreCompileInputs.cache
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\obj\Debug\net5.0\BusReservation.Entity.dll
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\obj\Debug\net5.0\ref\BusReservation.Entity.dll
+C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\obj\Debug\net5.0\BusReservation.Entity.pdb
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\bin\Debug\net5.0\BusReservation.Entity.deps.json
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\bin\Debug\net5.0\BusReservation.Entity.dll
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\bin\Debug\net5.0\ref\BusReservation.Entity.dll
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\bin\Debug\net5.0\BusReservation.Entity.pdb
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\obj\Debug\net5.0\BusReservation.Entity.csproj.AssemblyReference.cache
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\obj\Debug\net5.0\BusReservation.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\obj\Debug\net5.0\BusReservation.Entity.AssemblyInfoInputs.cache
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\obj\Debug\net5.0\BusReservation.Entity.AssemblyInfo.cs
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\obj\Debug\net5.0\BusReservation.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\obj\Debug\net5.0\BusReservation.Entity.dll
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\obj\Debug\net5.0\ref\BusReservation.Entity.dll
+C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Entity\obj\Debug\net5.0\BusReservation.Entity.pdb
