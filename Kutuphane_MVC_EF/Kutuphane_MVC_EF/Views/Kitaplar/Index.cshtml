@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Kutuphane_MVC_EF.Models.Kitaplar>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Yeni Kitap</a>
+</p>
+<table class="table table-sm table-hover table-dark">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Ad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SayfaSayisi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Stok)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Turler)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.YayinEvleri)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Yazarlar)
+            </th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SayfaSayisi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stok)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Turler.TurAd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.YayinEvleri.Ad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Yazarlar.AdSoyad)
+            </td>
+            <td>
+                <a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-id="@item.Isbn">Düzenle</a> |
+                <a class="btn btn-sm btn-warning" asp-action="Details" asp-route-id="@item.Isbn">Detay gör</a> |
+                <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@item.Isbn">Sil</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

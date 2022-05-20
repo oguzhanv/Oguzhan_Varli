@@ -1133,11 +1133,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oguzh\\Documents\\GitHub\\Web7_Projects\\Week_14\\BusReservation\\BusReservation.WebUI\\BusReservation.WebUI.csproj",
+      "projectUniqueName": "C:\\Users\\oguzh\\Documents\\GitHub\\Oguzhan_Varli\\BusReservation_oguzhan_varli\\BusReservation.WebUI\\BusReservation.WebUI.csproj",
       "projectName": "BusReservation.WebUI",
-      "projectPath": "C:\\Users\\oguzh\\Documents\\GitHub\\Web7_Projects\\Week_14\\BusReservation\\BusReservation.WebUI\\BusReservation.WebUI.csproj",
+      "projectPath": "C:\\Users\\oguzh\\Documents\\GitHub\\Oguzhan_Varli\\BusReservation_oguzhan_varli\\BusReservation.WebUI\\BusReservation.WebUI.csproj",
       "packagesPath": "C:\\Users\\oguzh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oguzh\\Documents\\GitHub\\Web7_Projects\\Week_14\\BusReservation\\BusReservation.WebUI\\obj\\",
+      "outputPath": "C:\\Users\\oguzh\\Documents\\GitHub\\Oguzhan_Varli\\BusReservation_oguzhan_varli\\BusReservation.WebUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\oguzh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1154,11 +1154,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\oguzh\\Documents\\GitHub\\Web7_Projects\\Week_14\\BusReservation\\BusReservation.Business\\BusReservation.Business.csproj": {
-              "projectPath": "C:\\Users\\oguzh\\Documents\\GitHub\\Web7_Projects\\Week_14\\BusReservation\\BusReservation.Business\\BusReservation.Business.csproj"
+            "C:\\Users\\oguzh\\Documents\\GitHub\\Oguzhan_Varli\\BusReservation_oguzhan_varli\\BusReservation.Business\\BusReservation.Business.csproj": {
+              "projectPath": "C:\\Users\\oguzh\\Documents\\GitHub\\Oguzhan_Varli\\BusReservation_oguzhan_varli\\BusReservation.Business\\BusReservation.Business.csproj"
             },
-            "C:\\Users\\oguzh\\Documents\\GitHub\\Web7_Projects\\Week_14\\BusReservation\\BusReservation.Data\\BusReservation.Data.csproj": {
-              "projectPath": "C:\\Users\\oguzh\\Documents\\GitHub\\Web7_Projects\\Week_14\\BusReservation\\BusReservation.Data\\BusReservation.Data.csproj"
+            "C:\\Users\\oguzh\\Documents\\GitHub\\Oguzhan_Varli\\BusReservation_oguzhan_varli\\BusReservation.Data\\BusReservation.Data.csproj": {
+              "projectPath": "C:\\Users\\oguzh\\Documents\\GitHub\\Oguzhan_Varli\\BusReservation_oguzhan_varli\\BusReservation.Data\\BusReservation.Data.csproj"
             }
           }
         }

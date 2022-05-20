@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Kutuphane_MVC_EF.Models.Odunc>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Ödünç Verme İşlemi Yap</a>
+</p>
+<table class="table table-sm table-hover table-dark">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.VerilisTarihi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TeslimTarihi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Iptal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KitaplarIsbnNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Uye)
+            </th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.VerilisTarihi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TeslimTarihi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Iptal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KitaplarIsbnNavigation.Isbn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Uye.Id)
+            </td>
+            <td>
+                <a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-id="@item.Id">Düzenle</a> |
+                <a class="btn btn-sm btn-warning" asp-action="Details" asp-route-id="@item.Id">Detay gör</a> |
+                <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@item.Id">Sil</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

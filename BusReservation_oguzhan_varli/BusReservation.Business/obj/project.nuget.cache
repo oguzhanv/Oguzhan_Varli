@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JV3UfQ4UAss/qFVNKB/E3b0AuMEADFPSa+Uy1S/RddL1WK+8G4oJvTO5qayLRMVr8BVylaJwdaEzrwWiOCNRtg==",
+  "dgSpecHash": "jR2YNNLrShvXXD2Op/xPJ5fem1qMTF0UIvOFu5TgSa/CQv6mkFsYGadRQRX4393+S8TvVC9CD7JGhMH61E13Rg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\oguzh\\Documents\\GitHub\\Web7_Projects\\Week_14\\BusReservation\\BusReservation.Business\\BusReservation.Business.csproj",
+  "projectFilePath": "C:\\Users\\oguzh\\Documents\\GitHub\\Oguzhan_Varli\\BusReservation_oguzhan_varli\\BusReservation.Business\\BusReservation.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oguzh\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.16\\microsoft.data.sqlite.core.5.0.16.nupkg.sha512",
     "C:\\Users\\oguzh\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",

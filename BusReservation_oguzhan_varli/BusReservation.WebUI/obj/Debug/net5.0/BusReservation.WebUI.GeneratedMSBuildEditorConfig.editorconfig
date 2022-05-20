@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = BusReservation.WebUI
-build_property.ProjectDir = C:\Users\oguzh\Documents\GitHub\Web7_Projects\Week_14\BusReservation\BusReservation.WebUI\
+build_property.ProjectDir = C:\Users\oguzh\Documents\GitHub\Oguzhan_Varli\BusReservation_oguzhan_varli\BusReservation.WebUI\

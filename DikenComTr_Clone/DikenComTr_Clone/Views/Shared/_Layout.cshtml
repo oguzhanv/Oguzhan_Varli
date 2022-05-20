@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>Diken - Yaramazlara biraz batar!</title>
+</head>
+
+<body>
+    <div class="container d-flex flex-column mt-2">
+        <!--1.Menü-->
+        <nav>
+            <div id="menu-btn-div">
+                <button id="menu-btn" onclick="ShowCloseMenu();">MENÜ</button>
+            </div>
+            <div class="nav-content bg-white">
+                <ul class="d-flex mb-0">
+                    <li><a href="">ROTA</a></li>
+                    <li><a href="">9 SORUDA</a></li>
+                    <li><a href="">DİKEN ÖZEL</a></li>
+                    <li><a href="">GÜNÜN 11'I</a></li>
+                    <li><a href="">DİKENLİK</a></li>
+                    <li><a href="">AKŞAM POSTASI</a></li>
+                    <li><a href="">VPN HABER</a></li>
+                    <li><a href="">ENGLISH</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--Diken banner-->
+        <header>
+            <div class="container m-0 p-0">
+                <div class="header-img">
+                    <img src="~/img/topBanner.png" alt="">
+                </div>
+            </div>
+        </header>
+        <!--2.Menü-->
+        <nav>
+            <div class="nav-content bg-white">
+                <ul class="d-flex">
+                    <li><a href="">VİTRİN</a></li>
+                    <li><a href="">AKTÜEL</a></li>
+                    <li><a href="">EKONOMİ</a></li>
+                    <li><a href="">ANALİZ</a></li>
+                    <li><a href="">DÜNYA</a></li>
+                    <li><a href="">MEDYA</a></li>
+                    <li><a href="">KEYİF</a></li>
+                    <li><a href="">AGORA</a></li>
+                    <li><a href="">SANAT</a></li>
+                    <li><a href="">SÜRDÜRÜLEBİRLİK</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main-content d-flex  bg-white">
+            @RenderBody()
+        </div>
+        <div class="footer-widget d-flex">
+            <div class="widgets-1 mr-5">
+                <div class="widget-1-menu">
+                    <ul class="list-unstyled">
+                        <li><a href="">VİTRİN</a></li>
+                        <li><a href="">AKTÜEL</a></li>
+                        <li><a href="">EKONOMİ</a></li>
+                        <li><a href="">ANALİZ</a></li>
+                        <li><a href="">DÜNYA</a></li>
+                        <li><a href="">MEDYA</a></li>
+                        <li><a href="">KEYİF</a></li>
+                        <li><a href="">AGORA</a></li>
+                        <li><a href="">SANAT</a></li>
+                        <li><a href="">SÜRDÜRÜLEBİLİRLİK</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="widget-2 mr-5">
+                <div class="widget-2-menu ">
+                    <ul class="list-unstyled">
+                        <li><a href="">AGORA</a></li>
+                        <li><a href="">DİKEN'E TAKILANLAR</a></li>
+                        <li><a href="">BİRİNCİ SAYFALAR</a></li>
+                        <li><a href="">GÜNÜN 11'İ</a></li>
+                        <li><a href="">AKŞAM POSTASI</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="widget-3 mr-5">
+                <div class="widget-3-menu ">
+                    <ul class="list-unstyled">
+                        <li><a href="">BU GAZETE...</a></li>
+                        <li><a href="">DİKEN 5 YAŞINDA</a></li>
+                        <li><a href="">KÜNYE</a></li>
+                        <li><a href="">İLETİŞİM</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="widget-4 ">
+                <div class="widget-4-img-menu">
+                    <div class="img-list">
+                        <ul class="list-unstyled d-flex flex-wrap">
+                            <li><a href=""> <img src="~/img/icons8-mail-24.png" alt=""></a></li>
+                            <li>
+                                <a href="">
+                                    <img src="~/img/icons8-facebook-f-24.png"
+                                         alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="~/img/icons8-google-plus-24.png"
+                                         alt="">
+                                </a></li>
+                            <li>
+                                <a href="">
+                                    <img src="~/img/icons8-pinterest-p-24.png"
+                                         alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="~/img/icons8-rss-a-type-of-web-feed-allows-users-and-applications-to-access-updates-24.png"
+                                         alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href=""> <img src="~/img/icons8-twitter-24.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href=""> <img src="~/img/icons8-vimeo-24.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href=""> <img src="~/img/icons8-youtube-24.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-text">
+                <p>
+                    "Genç gazeteci arkadaşlarıma! Bu meslek yorucu bir meslektir. Ama, insan büyük bir zevkle çalışır.
+                    Kalemine daima efendi kal, uşak olmamaya gayret et. Mecbur kalırsan kır, sakın satma." Sedat Simavi
+                </p>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    <script src="~/js/site.js"></script>
+</body>
+
+</html>

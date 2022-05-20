@@ -1,0 +1,55 @@
+﻿@model Kutuphane_MVC_EF.Models.Kitaplar
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Kitaplar</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Kitap Adı:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Ad)
+        </dd>
+        <dt class = "col-sm-2">
+            Sayfa Sayısı:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SayfaSayisi)
+        </dd>
+        <dt class = "col-sm-2">
+            Stok:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Stok)
+        </dd>
+        <dt class = "col-sm-2">
+            Kitap Türü:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Turler.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            Yayınevi:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.YayinEvleri.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            Yazar
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Yazarlar.Id)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Isbn">Düzenle</a> |
+    <a asp-action="Index">Geri dön</a>
+</div>

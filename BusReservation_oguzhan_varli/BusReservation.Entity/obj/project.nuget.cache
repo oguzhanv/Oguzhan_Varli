@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RvcMBLU2chsBuZRD0Sn9u2rjMqMUCMSy9YAVqs0ChjXvYXoPjk3rD4+l/wpIyPGapQTcz/7M2oFCpfnwVJ2CZQ==",
+  "dgSpecHash": "h56AFUT8/M65tD3s37ZLn42QrG4Ld8fyAIn/uPOoViE0e80MRfM9phy+kXxGv6vBbLjSssK85bvQG1+/YuzIgg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\oguzh\\Documents\\GitHub\\Web7_Projects\\Week_14\\BusReservation\\BusReservation.Entity\\BusReservation.Entity.csproj",
+  "projectFilePath": "C:\\Users\\oguzh\\Documents\\GitHub\\Oguzhan_Varli\\BusReservation_oguzhan_varli\\BusReservation.Entity\\BusReservation.Entity.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

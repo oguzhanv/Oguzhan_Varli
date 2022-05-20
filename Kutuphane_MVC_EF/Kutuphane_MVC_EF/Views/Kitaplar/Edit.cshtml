@@ -1,0 +1,60 @@
+﻿@model Kutuphane_MVC_EF.Models.Kitaplar
+
+@{
+    ViewData["Title"] = "Düzenle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>Kitaplar</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Isbn" />
+            <div class="form-group">
+                <label asp-for="Ad" class="control-label"></label>
+                <input asp-for="Ad" class="form-control" />
+                <span asp-validation-for="Ad" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SayfaSayisi" class="control-label">Sayfa Sayısı</label>
+                <input asp-for="SayfaSayisi" class="form-control" />
+                <span asp-validation-for="SayfaSayisi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Stok" class="control-label"></label>
+                <input asp-for="Stok" class="form-control" />
+                <span asp-validation-for="Stok" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TurlerId" class="control-label">Tür</label>
+                <select asp-for="TurlerId" class="form-control" asp-items="ViewBag.TurlerId"></select>
+                <span asp-validation-for="TurlerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="YazarlarId" class="control-label">Yazar</label>
+                <select asp-for="YazarlarId" class="form-control" asp-items="ViewBag.YazarlarId"></select>
+                <span asp-validation-for="YazarlarId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="YayinEvleriId" class="control-label">Yayınevi</label>
+                <select asp-for="YayinEvleriId" class="form-control" asp-items="ViewBag.YayinEvleriId"></select>
+                <span asp-validation-for="YayinEvleriId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Kaydet" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Geri dön</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

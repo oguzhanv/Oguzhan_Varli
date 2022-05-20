@@ -1,0 +1,55 @@
+﻿@model Kutuphane_MVC_EF.Models.Odunc
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>Odunc</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="UyeId" class="control-label"></label>
+                <select asp-for="UyeId" class="form-control" asp-items="ViewBag.UyeId"></select>
+                <span asp-validation-for="UyeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KitaplarIsbn" class="control-label"></label>
+                <select asp-for="KitaplarIsbn" class="form-control" asp-items="ViewBag.KitaplarIsbn"></select>
+                <span asp-validation-for="KitaplarIsbn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VerilisTarihi" class="control-label"></label>
+                <input asp-for="VerilisTarihi" class="form-control" />
+                <span asp-validation-for="VerilisTarihi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TeslimTarihi" class="control-label"></label>
+                <input asp-for="TeslimTarihi" class="form-control" />
+                <span asp-validation-for="TeslimTarihi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Iptal" class="control-label"></label>
+                <input asp-for="Iptal" class="form-control" />
+                <span asp-validation-for="Iptal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Kaydet" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Geri dön</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

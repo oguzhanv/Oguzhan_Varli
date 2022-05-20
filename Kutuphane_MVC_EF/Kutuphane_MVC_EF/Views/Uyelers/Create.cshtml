@@ -1,0 +1,84 @@
+﻿@model Kutuphane_MVC_EF.Models.Uyeler
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>Uyeler</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="AdSoyad" class="control-label"></label>
+                <input asp-for="AdSoyad" class="form-control" />
+                <span asp-validation-for="AdSoyad" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cinsiyet" class="control-label"></label>
+                <input asp-for="Cinsiyet" class="form-control" />
+                <span asp-validation-for="Cinsiyet" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DogumTarihi" class="control-label"></label>
+                <input asp-for="DogumTarihi" class="form-control" />
+                <span asp-validation-for="DogumTarihi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tel" class="control-label"></label>
+                <input asp-for="Tel" class="form-control" />
+                <span asp-validation-for="Tel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mail" class="control-label"></label>
+                <input asp-for="Mail" class="form-control" />
+                <span asp-validation-for="Mail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UyelikTarihi" class="control-label"></label>
+                <input asp-for="UyelikTarihi" class="form-control" />
+                <span asp-validation-for="UyelikTarihi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UyelikTipi" class="control-label"></label>
+                <input asp-for="UyelikTipi" class="form-control" />
+                <span asp-validation-for="UyelikTipi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TcNo" class="control-label"></label>
+                <input asp-for="TcNo" class="form-control" />
+                <span asp-validation-for="TcNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Meslek" class="control-label"></label>
+                <input asp-for="Meslek" class="form-control" />
+                <span asp-validation-for="Meslek" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EgitimDurumu" class="control-label"></label>
+                <input asp-for="EgitimDurumu" class="form-control" />
+                <span asp-validation-for="EgitimDurumu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CezaDurumu" class="control-label"></label>
+                <input asp-for="CezaDurumu" class="form-control" />
+                <span asp-validation-for="CezaDurumu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Geri dön</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

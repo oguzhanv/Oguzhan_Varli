@@ -34,3 +34,21 @@ C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\B
 C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Data\obj\Debug\net5.0\ref\BusReservation.Data.dll
 C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Data\obj\Debug\net5.0\BusReservation.Data.pdb
 C:\Users\Web ve Mobil Öğle\source\repos\Web7_Projects\Week_14\BusReservation\BusReservation.Data\obj\Debug\net5.0\BusReservation.Data.genruntimeconfig.cache
+C:\Users\oguzh\Documents\GitHub\Oguzhan_Varli\BusReservation_oguzhan_varli\BusReservation.Data\bin\Debug\net5.0\BusReservation.Data.deps.json
+C:\Users\oguzh\Documents\GitHub\Oguzhan_Varli\BusReservation_oguzhan_varli\BusReservation.Data\bin\Debug\net5.0\BusReservation.Data.runtimeconfig.json
+C:\Users\oguzh\Documents\GitHub\Oguzhan_Varli\BusReservation_oguzhan_varli\BusReservation.Data\bin\Debug\net5.0\BusReservation.Data.runtimeconfig.dev.json
+C:\Users\oguzh\Documents\GitHub\Oguzhan_Varli\BusReservation_oguzhan_varli\BusReservation.Data\bin\Debug\net5.0\BusReservation.Data.dll
+C:\Users\oguzh\Documents\GitHub\Oguzhan_Varli\BusReservation_oguzhan_varli\BusReservation.Data\bin\Debug\net5.0\ref\BusReservation.Data.dll
+C:\Users\oguzh\Documents\GitHub\Oguzhan_Varli\BusReservation_oguzhan_varli\BusReservation.Data\bin\Debug\net5.0\BusReservation.Data.pdb
+C:\Users\oguzh\Documents\GitHub\Oguzhan_Varli\BusReservation_oguzhan_varli\BusReservation.Data\bin\Debug\net5.0\BusReservation.Entity.dll
+C:\Users\oguzh\Documents\GitHub\Oguzhan_Varli\BusReservation_oguzhan_varli\BusReservation.Data\bin\Debug\net5.0\BusReservation.Entity.pdb
+C:\Users\oguzh\Documents\GitHub\Oguzhan_Varli\BusReservation_oguzhan_varli\BusReservation.Data\obj\Debug\net5.0\BusReservation.Data.csproj.AssemblyReference.cache
+C:\Users\oguzh\Documents\GitHub\Oguzhan_Varli\BusReservation_oguzhan_varli\BusReservation.Data\obj\Debug\net5.0\BusReservation.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oguzh\Documents\GitHub\Oguzhan_Varli\BusReservation_oguzhan_varli\BusReservation.Data\obj\Debug\net5.0\BusReservation.Data.AssemblyInfoInputs.cache
+C:\Users\oguzh\Documents\GitHub\Oguzhan_Varli\BusReservation_oguzhan_varli\BusReservation.Data\obj\Debug\net5.0\BusReservation.Data.AssemblyInfo.cs
+C:\Users\oguzh\Documents\GitHub\Oguzhan_Varli\BusReservation_oguzhan_varli\BusReservation.Data\obj\Debug\net5.0\BusReservation.Data.csproj.CoreCompileInputs.cache
+C:\Users\oguzh\Documents\GitHub\Oguzhan_Varli\BusReservation_oguzhan_varli\BusReservation.Data\obj\Debug\net5.0\BusReservation.Data.csproj.CopyComplete
+C:\Users\oguzh\Documents\GitHub\Oguzhan_Varli\BusReservation_oguzhan_varli\BusReservation.Data\obj\Debug\net5.0\BusReservation.Data.dll
+C:\Users\oguzh\Documents\GitHub\Oguzhan_Varli\BusReservation_oguzhan_varli\BusReservation.Data\obj\Debug\net5.0\ref\BusReservation.Data.dll
+C:\Users\oguzh\Documents\GitHub\Oguzhan_Varli\BusReservation_oguzhan_varli\BusReservation.Data\obj\Debug\net5.0\BusReservation.Data.pdb
+C:\Users\oguzh\Documents\GitHub\Oguzhan_Varli\BusReservation_oguzhan_varli\BusReservation.Data\obj\Debug\net5.0\BusReservation.Data.genruntimeconfig.cache
